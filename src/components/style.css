@@ -1,0 +1,76 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .image-list {
+    display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 20px;
+  }
+  
+  .image-list img {
+    width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  }
+  
+  .performance-info {
+    margin-top: 20px;
+  }
+  
+  .performance-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .performance-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .performance-info li {
+    margin-bottom: 5px;
+  }
+  .performance-info {
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Стили для заголовка анализа производительности */
+  .performance-info h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Стили для списка ресурсов */
+  .performance-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Стили для элементов списка ресурсов */
+  .performance-info li {
+    margin-bottom: 5px;
+    color: #666;
+  }
+  
+  /* Стили для длительности ресурсов */
+  .performance-info li span {
+    color: #888;
+  }
